@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB3C8372284A53300EB57F6 /* extractmacho.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3C8352284A53300EB57F6 /* extractmacho.cpp */; };
+		7BB3C8382284A53300EB57F6 /* extractmacho.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3C8352284A53300EB57F6 /* extractmacho.cpp */; };
+		7BB3C8392284A53300EB57F6 /* extractmacho.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7BB3C8362284A53300EB57F6 /* extractmacho.hpp */; };
+		7BB3C83A2284A53300EB57F6 /* extractmacho.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7BB3C8362284A53300EB57F6 /* extractmacho.hpp */; };
+		7BB3C8442284A5AC00EB57F6 /* validate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3C83C2284A5AB00EB57F6 /* validate.cpp */; };
+		7BB3C8452284A5AC00EB57F6 /* validate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3C83C2284A5AB00EB57F6 /* validate.cpp */; };
+		7BB3C8462284A5AC00EB57F6 /* validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB3C83D2284A5AC00EB57F6 /* validate.h */; };
+		7BB3C8472284A5AC00EB57F6 /* validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB3C83D2284A5AC00EB57F6 /* validate.h */; };
+		7BB3C8482284A5AC00EB57F6 /* extractors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB3C83E2284A5AC00EB57F6 /* extractors.h */; };
+		7BB3C8492284A5AC00EB57F6 /* extractors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB3C83E2284A5AC00EB57F6 /* extractors.h */; };
+		7BB3C84E2284A5AC00EB57F6 /* extractors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3C8412284A5AC00EB57F6 /* extractors.cpp */; };
+		7BB3C84F2284A5AC00EB57F6 /* extractors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3C8412284A5AC00EB57F6 /* extractors.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BB3C8262284957500EB57F6 /* ExtractMacho264.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ExtractMacho264.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB3C8342284A47B00EB57F6 /* ExtractMacho2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ExtractMacho2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB3C8352284A53300EB57F6 /* extractmacho.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extractmacho.cpp; sourceTree = "<group>"; };
+		7BB3C8362284A53300EB57F6 /* extractmacho.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = extractmacho.hpp; sourceTree = "<group>"; };
+		7BB3C83C2284A5AB00EB57F6 /* validate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = validate.cpp; sourceTree = "<group>"; };
+		7BB3C83D2284A5AC00EB57F6 /* validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validate.h; sourceTree = "<group>"; };
+		7BB3C83E2284A5AC00EB57F6 /* extractors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extractors.h; sourceTree = "<group>"; };
+		7BB3C8412284A5AC00EB57F6 /* extractors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = extractors.cpp; sourceTree = "<group>"; };
+		7BB3C8502284A6D700EB57F6 /* logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		7BB3C8512284E06200EB57F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB3C8232284957500EB57F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3C82F2284A47B00EB57F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB3C81D2284957500EB57F6 = {
+			isa = PBXGroup;
+			children = (
+				7BB3C8352284A53300EB57F6 /* extractmacho.cpp */,
+				7BB3C8362284A53300EB57F6 /* extractmacho.hpp */,
+				7BB3C8412284A5AC00EB57F6 /* extractors.cpp */,
+				7BB3C83E2284A5AC00EB57F6 /* extractors.h */,
+				7BB3C83C2284A5AB00EB57F6 /* validate.cpp */,
+				7BB3C83D2284A5AC00EB57F6 /* validate.h */,
+				7BB3C8502284A6D700EB57F6 /* logging.h */,
+				7BB3C8512284E06200EB57F6 /* README.md */,
+				7BB3C8272284957500EB57F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB3C8272284957500EB57F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3C8262284957500EB57F6 /* ExtractMacho264.dylib */,
+				7BB3C8342284A47B00EB57F6 /* ExtractMacho2.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7BB3C8242284957500EB57F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB3C8392284A53300EB57F6 /* extractmacho.hpp in Headers */,
+				7BB3C8482284A5AC00EB57F6 /* extractors.h in Headers */,
+				7BB3C8462284A5AC00EB57F6 /* validate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3C8302284A47B00EB57F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB3C83A2284A53300EB57F6 /* extractmacho.hpp in Headers */,
+				7BB3C8492284A5AC00EB57F6 /* extractors.h in Headers */,
+				7BB3C8472284A5AC00EB57F6 /* validate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BB3C8252284957500EB57F6 /* ExtractMacho2 IDA64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB3C82A2284957500EB57F6 /* Build configuration list for PBXNativeTarget "ExtractMacho2 IDA64" */;
+			buildPhases = (
+				7BB3C8222284957500EB57F6 /* Sources */,
+				7BB3C8232284957500EB57F6 /* Frameworks */,
+				7BB3C8242284957500EB57F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExtractMacho2 IDA64";
+			productName = ExtractMacho2;
+			productReference = 7BB3C8262284957500EB57F6 /* ExtractMacho264.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		7BB3C82D2284A47B00EB57F6 /* ExtractMacho2 IDA32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB3C8312284A47B00EB57F6 /* Build configuration list for PBXNativeTarget "ExtractMacho2 IDA32" */;
+			buildPhases = (
+				7BB3C82E2284A47B00EB57F6 /* Sources */,
+				7BB3C82F2284A47B00EB57F6 /* Frameworks */,
+				7BB3C8302284A47B00EB57F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExtractMacho2 IDA32";
+			productName = ExtractMacho2;
+			productReference = 7BB3C8342284A47B00EB57F6 /* ExtractMacho2.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB3C81E2284957500EB57F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Put.as;
+				TargetAttributes = {
+					7BB3C8252284957500EB57F6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BB3C8212284957500EB57F6 /* Build configuration list for PBXProject "ExtractMacho2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BB3C81D2284957500EB57F6;
+			productRefGroup = 7BB3C8272284957500EB57F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB3C8252284957500EB57F6 /* ExtractMacho2 IDA64 */,
+				7BB3C82D2284A47B00EB57F6 /* ExtractMacho2 IDA32 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB3C8222284957500EB57F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB3C84E2284A5AC00EB57F6 /* extractors.cpp in Sources */,
+				7BB3C8372284A53300EB57F6 /* extractmacho.cpp in Sources */,
+				7BB3C8442284A5AC00EB57F6 /* validate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3C82E2284A47B00EB57F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB3C84F2284A5AC00EB57F6 /* extractors.cpp in Sources */,
+				7BB3C8382284A53300EB57F6 /* extractmacho.cpp in Sources */,
+				7BB3C8452284A5AC00EB57F6 /* validate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BB3C8282284957500EB57F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7BB3C8292284957500EB57F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7BB3C82B2284957500EB57F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"__MAC__=1",
+					"__EA64__=1",
+					"__X64__=1",
+				);
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 7.2/idasdk72/include";
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 7.2/ida.app/Contents/MacOS/";
+				OTHER_LDFLAGS = "-lida64";
+				PRODUCT_NAME = ExtractMacho264;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7BB3C82C2284957500EB57F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__MAC__=1",
+					"__EA64__=1",
+					"__X64__=1",
+				);
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 7.2/idasdk72/include";
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 7.2/ida.app/Contents/MacOS/";
+				OTHER_LDFLAGS = "-lida64";
+				PRODUCT_NAME = ExtractMacho264;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7BB3C8322284A47B00EB57F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"__MAC__=1",
+				);
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 7.2/idasdk72/include";
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 7.2/ida.app/Contents/MacOS/";
+				OTHER_LDFLAGS = "-lida";
+				PRODUCT_NAME = ExtractMacho2;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7BB3C8332284A47B00EB57F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "__MAC__=1";
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 7.2/idasdk72/include";
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 7.2/ida.app/Contents/MacOS/";
+				OTHER_LDFLAGS = "-lida";
+				PRODUCT_NAME = ExtractMacho2;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB3C8212284957500EB57F6 /* Build configuration list for PBXProject "ExtractMacho2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB3C8282284957500EB57F6 /* Debug */,
+				7BB3C8292284957500EB57F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB3C82A2284957500EB57F6 /* Build configuration list for PBXNativeTarget "ExtractMacho2 IDA64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB3C82B2284957500EB57F6 /* Debug */,
+				7BB3C82C2284957500EB57F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB3C8312284A47B00EB57F6 /* Build configuration list for PBXNativeTarget "ExtractMacho2 IDA32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB3C8322284A47B00EB57F6 /* Debug */,
+				7BB3C8332284A47B00EB57F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB3C81E2284957500EB57F6 /* Project object */;
+}
